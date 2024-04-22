@@ -1,0 +1,58 @@
+body {
+	background: black;
+}
+
+.postcard-header {
+	display: flex;
+	background: white;
+	width: 400px;
+	height: 50px;
+	margin: auto;
+}
+
+.postcard-header img {
+	position: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	font-family: "Courier New";
+	width: 400px;
+	margin: 1px;
+}
+
+.postcard-body {
+	font-family: "Courier New";
+	display: flex;
+	background: white;
+	width: 400px;
+	height: 200px;
+	margin: auto;
+}
+
+.body-left,
+.body-right {
+	padding: 1px;
+}
+
+.input {
+	border: none;
+	border-bottom: grey;
+	width: 10px;
+	height: 10px;
+}
+
+.postcard-footer {
+	font-family: "Courier New";
+	text-align: center;
+	background: white;
+	width: 400px;
+	height: 50px;
+	margin: auto;
+}
+
+button {
+	font-family: fantasy;
+	background-color: silver;
+	padding: 10px;
+}
